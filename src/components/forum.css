@@ -1,0 +1,130 @@
+.forum-img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.forum-img img{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    object-fit: fill;
+}
+
+.forum-headerbox{
+    background-color:#484D4F;
+    padding: 1px;
+    margin-bottom: 1rem;
+    width: 100%;
+
+}
+.forum-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.leftcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    color: aliceblue;
+    font-size: 1.3rem;
+    list-style: none;
+    text-decoration: none;
+    object-fit: fill;
+}
+.search-bar{
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    background: #ccc;
+    padding: 1px 1px;
+    border-top: 1px solid #ccc;
+    justify-content: center;
+}
+.search-bar textarea{
+    box-sizing: border-box;
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    resize: none;
+}
+.search-bar span{
+    display: flex;
+    justify-content: right;
+    height: 25px;
+    line-height: 55px;
+    color: #724ae8;
+    font-size: 1.35rem;
+    cursor: pointer;
+}
+.forum-container{
+    display:flex;
+    width: 100%;
+    height: auto;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: #ccc 1px 2px 5px 2px;
+    overflow: hidden;
+    list-style: none;
+}
+.profile{
+    height:100px;
+    width: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 50px;
+    border-radius: 50px;
+}
+.profile img{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 100px;
+}
+.forum-text{
+    display: flex;
+    text-align:justify;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:50% ;
+    object-fit: fill;
+}
+.forum-text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+
+}
+.forum-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height:30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+.forum-icon li{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.pageno{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}

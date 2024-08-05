@@ -1,0 +1,135 @@
+
+.bg2{
+    object-fit: cover;
+    background-image: url("images/bg5.png") ;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+.title {
+    display: grid;
+    place-content: center; 
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.title h1{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    object-fit: fill;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    width:700px;
+    height: auto;
+    overflow:hidden ;
+
+}
+.about-content p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: large;
+}
+
+.components{
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.aboutus-container{
+    height: auto;
+    width: 275px;
+    background-color: rgb(250, 201, 238);
+    opacity: 70%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.aboutus-container h2{
+    display: grid;
+    place-content: center;
+}
+.aboutus-container p{
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.images{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+.images img{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+}
+
+
+.aboutus-container:hover {
+    background:paleturquoise;
+
+    .hrtag{
+        background-color: white;
+        transition: all 400ms ease-in-out;
+        width: 60px;
+    }
+    
+    
+}
+.aboutus-container2:hover {
+    background:paleturquoise;
+    .hrtag{
+        background-color: white;
+        transition: all 400ms ease-in-out;
+        width: 60px;
+    }
+    .key{
+        background-color: paleturquoise;
+       }
+    
+    
+}
+.hrtag{
+    height: 3px;
+    width: 45px;
+    background-color:paleturquoise;
+    margin: 0 auto;
+    border: none;
+}
+
+
+.aboutus-container2{
+    height: auto;
+    width: 500px;
+    background-color: rgb(250, 201, 238);
+    opacity: 70%;
+    overflow: hidden;
+    border-radius: 20px;
+    line-height: 30px;
+  
+}
+.aboutus-container2 h2{
+    display: flex;
+    place-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+.aboutus-container2 ul{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    object-fit: fill;
+}

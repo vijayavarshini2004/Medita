@@ -1,0 +1,101 @@
+.footer-greybox{
+    height: auto;
+    background:#484D4F;
+    width: 100%;
+    color: white;
+
+}
+.top-left-content {
+    display: flex;
+    align-items: left;
+    justify-content:left;
+}
+.logo {
+    width: 50px;
+    margin-right: 10px;
+    padding: 2px;
+}
+.brand-text {
+    font-size: 1.7rem;
+    color: aliceblue;
+    padding: 2px;
+    margin-top: 1px;
+}
+.hr{
+    color: white;
+}
+.middle-content{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+}
+.middle-left{
+    display: grid;
+    place-content: left;
+    height: auto;
+    margin-left: 35px;
+}
+.middle-mid{
+    list-style: none;
+    display: grid;
+    place-content: center;
+    height: auto;
+}
+.footer-nav-left{
+    list-style: none;
+    display: grid;
+    justify-content: left;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-nav-right{
+    list-style: none;
+    display: grid;
+    place-content: left;
+    place-content: space-between;
+    margin-top: 0%;
+    width: 100%;
+}
+.bottom-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.bottom-left{
+    display: flex;
+    align-items: left;
+    margin-left: 35px;
+    width: 100%;
+}
+.bottom-nav-left{
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    
+}
+.insta{
+    width: 30px;
+    margin-left: 10px;
+}
+.facebook{
+    width: 30px;
+    margin-left: 10px;
+}
+.twitter{
+    width: 30px;
+    margin-left: 10px;
+}
+.flipboard{
+    width: 30px;
+    margin-left: 10px;
+}
+.bottom-right{
+    display: grid;
+    align-items: center;
+    place-content:center;
+    width: 100%;
+    margin-right: 370px;
+}
+.bottom-nav-right{
+    list-style: none;
+}

@@ -1,0 +1,59 @@
+.header {
+  background-color:#484D4F;
+  padding: 1px;
+  margin-bottom: 1rem;
+  width: 100%;
+
+}
+
+.boxer {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  justify-content:left;
+
+}
+
+.logo {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin-top: 10px;
+}
+.navbar{
+  margin-right: 60px;
+}
+.nav  {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: aliceblue;
+  font-size: 1.5rem;
+  list-style: none;
+  text-decoration: none;
+
+}
+.nav a{
+  display: inline-block;
+  color: aliceblue;
+  text-decoration: none;
+
+}
+
+.nav :hover{
+  color:aqua;
+  border-radius: 2px;
+  opacity: 90%;
+}
