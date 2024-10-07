@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import About from './About-body';
-import Chatbot from './Chatbot';
+
 import './body.css';
 import about from './images/about.jpg';
 import chatbot from './images/chatbot.jpg';
@@ -65,11 +65,6 @@ const Body = () => {
       </div>
     </div>
 
-    <br />
-    <br />
-    <br />
-    <br />
-
     <div className='test'>
       <div className='content'>
       <h1>Make sense of your experiences</h1>
@@ -78,7 +73,8 @@ const Body = () => {
       <br />
       </div>
       <div className='contenimg'>
-          <img src={test} alt="test" /></div>
+          <img src={test} alt="test" />
+      </div>
     </div><br /><br /><br />
     <h1 className='start'>MEDITA at a Glance</h1><br />
     <br />
